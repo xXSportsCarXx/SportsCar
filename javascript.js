@@ -44,3 +44,15 @@ function closeKauf(){
     $('#exampleModalCenter').modal('hide')
 console.log("working")
 }
+
+
+
+var datenElement= document.getElementById("spenden100")
+datenElement.style.display="none"
+
+var buttonElement=document.getElementById("100")
+buttonElement.addEventListener("click", clickButton)
+
+function clickButton(){
+datenElement.style.display="Block"
+}
